@@ -1,0 +1,76 @@
+.block{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.headerTitle{
+    font-family: 'Montserrat Bold';
+    font-size: 45;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.addPatients{
+    background-color: rgba(39, 174, 96, 1);
+    border: 1px solid rgba(39, 174, 96, 1);
+    font-family: 'Montserrat';
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    transition: 0.8s ease;
+    color: #fff;
+    text-decoration: none;
+    width: 200px;
+    
+}
+.addPatients:hover{
+    background-color: transparent;
+    border: 1px solid rgba(39, 174, 96, 1);
+    color: rgba(39, 174, 96, 1);
+    text-decoration: none;
+}
+.analitika{
+    background-color: rgba(86, 204, 242, 1);
+    border: 1px solid rgba(86, 204, 242, 1);
+    font-family: 'Montserrat';
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    transition: 0.8s ease;
+    color: #fff;
+    text-decoration: none;
+    width: 200px;
+}
+.analitika:hover{
+    background-color: transparent;
+    border: 1px solid rgba(86, 204, 242, 1);
+    color: rgba(86, 204, 242, 1);
+    text-decoration: none;
+}
+.patients{
+    background-color: rgba(209, 25, 25, 1);
+    border: 1px solid rgba(209, 25, 25, 1);
+    font-family: 'Montserrat';
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    transition: 0.8s ease;
+    color: #fff;
+    text-decoration: none;
+    width: 200px;
+}
+.patients:hover{
+    background-color: transparent;
+    border: 1px solid rgba(209, 25, 25, 1);
+    color: rgba(209, 25, 25, 1);
+    text-decoration: none;
+}
